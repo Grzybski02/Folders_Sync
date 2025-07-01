@@ -5,6 +5,10 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
+// Handles mirroring of files from the source folder to the replica and
+// responds to file system change events.
+//
+
 namespace Folders_Sync;
 class Synchronizer
 {

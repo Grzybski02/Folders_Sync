@@ -4,6 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//
+// Simple thread-safe logger that writes to console and a log file.
+//
+
 namespace Folders_Sync;
 static class Logger
 {
