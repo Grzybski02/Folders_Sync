@@ -1,4 +1,8 @@
-﻿namespace Folders_Sync;
+﻿// Entry point of the folders synchronization utility.
+// Parses command line arguments, initializes logging and
+// sets up synchronization and the periodic update loop.
+
+namespace Folders_Sync;
 class Program
 {
     static async Task Main(string[] args)
