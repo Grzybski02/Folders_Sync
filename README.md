@@ -14,3 +14,6 @@ Folders_Sync.exe <sourcePath> <replicaPath> <intervalSeconds> <logFilePath>
 
 `<intervalSeconds>` controls the delay between periodic full sync cycles while
 the program runs.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
