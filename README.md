@@ -23,15 +23,8 @@ dotnet build
 This produces the executable under `bin/`.
 
 ## Example
-Through running .NET 8 SDK:
 ```
 dotnet run -- C:\data\source C:\data\replica 30 C:\data\log.txt
-```
-
-or through the command line and .exe:
-
-```
-\bin\Release\net8.0\Folders_Sync.exe C:\data\source C:\data\replica 30 C:\data\log.txt
 ```
 
 The command above synchronizes `C:\data\source` with `C:\data\replica` every
